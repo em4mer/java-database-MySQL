@@ -19,7 +19,7 @@ public class Database {
     void createConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/datainfo", "em4mer", "10201973Kk");
+            Connection con = DriverManager.getConnection("PLACEHOLDERlocation", "PLACEHOLDERusername", "PLACEHOLDERpassword");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM studentsinfo");
         
