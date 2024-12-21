@@ -194,7 +194,7 @@ public class DatabaseJFrame extends javax.swing.JFrame {
     void createConnection() {
         try {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/datainfo", "em4mer", "10201973Kk");
+        con = DriverManager.getConnection("PLACEHOLDERlocation", "PLACEHOLDERusername", "PLACEHOLDERpassword");
         
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Database.class.getName()).log(Level.SEVERE, null, ex);
