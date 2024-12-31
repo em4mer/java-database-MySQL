@@ -33,8 +33,8 @@ public class DatabaseJFrame extends javax.swing.JFrame {
         }
 
         private void initComponents() {
-            JLabel emailLabel = new JLabel("Email: samontegabriel10@gmail.com");
-            JLabel contactLabel = new JLabel("Contact Number: +639637213705");
+            JLabel emailLabel = new JLabel("Email: database10@gmail.com");
+            JLabel contactLabel = new JLabel("Contact Number: ");
 
             JPanel panel = new JPanel();
             panel.add(emailLabel);
